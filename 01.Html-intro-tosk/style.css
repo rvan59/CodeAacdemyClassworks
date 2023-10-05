@@ -1,0 +1,24 @@
+
+
+*{
+    list-style: none;
+}.hea{ color: aliceblue;}
+.head{
+    background-image: url("./Harry-Potter-Movies-in-Order.avif");
+background-size: cover;
+background-position: center;
+    color: brown;
+    height: 40vh;
+}
+.as{ color: darkgoldenrod;
+
+}
+#xa{color: blue;}
+.he{color: darkgoldenrod;}
+.az{color: rgb(14, 233, 233);}
+.headi{
+    background-color: green;
+}
+table [ border="1"] {
+    background-image: green;
+}
