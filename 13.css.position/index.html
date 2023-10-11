@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div class="container"></div>
-</body>
+    <style>
+      body {
+        height: 100vh;
+      }
+      .container { 
+        margin: 0 auto;
+position: relative;
+        border: 3px solid green;
+        height: 60vh;
+        width: 50%;
+      }
+      h1 {
+        font-weight: 900;
+      }
+      p {
+        font-weight: 300;
+      }
+      .box {
+        width: 60px;
+        height: 60px;
+      }
+      .a {
+        background-color: red;
+        position: absolute;
+        top: 35px;
+        left: 35px;
+      }
+      .b { 
+        background-color: orange;
+
+        position: absolute;
+        top: 65px;
+        left: 65px;
+        z-index: 2;
+      }
+      .c {
+        background-color: yellow;
+        position: absolute;
+        top: 85px;
+        left: 85px;
+      }
+      .d { 
+        background-color: chocolate;
+        position: sticky;
+        top: 0;
+        left: 100%;
+       
+      }
+      .e {
+        background-color: green;
+        position: absolute;
+        top: 300px;
+        left: 270px;
+      }
+      .f { 
+        background-color: brown;
+        position: fixed;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Positioning Examples</h1>
+    <p>absolute , fixed, and floats</p>
+    <div class="container">
+
+    <div class="boxes">
+      <div class="box a">a</div>
+      <div class="box b">b</div>
+      <div class="box c">c</div>
+      <div class="box d">d</div>
+      <div class="box e">e</div>
+      <div class="box f">f</div>
+    </div>
+ 
+    </div>
+
+  </body>
 </html>
