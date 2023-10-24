@@ -1,0 +1,19 @@
+.top {
+  background-image: url("../images/cover.svg");
+}
+.top .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.top .header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  list-style: none;
+}
+.top .header nav ul a {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
