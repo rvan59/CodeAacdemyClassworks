@@ -1,0 +1,104 @@
+section header .container {
+  height: 100px;
+  background-color: rgb(43, 5, 78);
+}
+section header .container .header {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section header .container .header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+section header .container .header nav ul li {
+  list-style: none;
+}
+section header .container .header nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+section header .container .button button {
+  width: 65px;
+  height: 25px;
+  border-radius: 4px;
+  border: 1px solid aliceblue;
+  color: aliceblue;
+  background-color: rgb(43, 5, 78);
+}
+section header .center h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 72px;
+}
+section header p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 16px;
+}
+section header {
+  padding: 10px;
+}
+section header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+section header ul li {
+  color: aliceblue;
+  list-style: none;
+}
+section header ul li a {
+  text-decoration: none;
+}
+section .esas1,
+section .esas2,
+section .esas3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+section .esas1 .img .kard,
+section .esas2 .img .kard,
+section .esas3 .img .kard {
+  position: relative;
+}
+section .esas1 .img .kard img,
+section .esas2 .img .kard img,
+section .esas3 .img .kard img {
+  width: 370px;
+  height: 416px;
+}
+section .esas1 .img .kard .content-btn,
+section .esas2 .img .kard .content-btn,
+section .esas3 .img .kard .content-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+section .esas1 .img .kard .content-btn button,
+section .esas2 .img .kard .content-btn button,
+section .esas3 .img .kard .content-btn button {
+  width: 84px;
+  height: 38px;
+  border-radius: 15px;
+  border: none;
+}
+section .esas1 .img .kard .content-btn h3,
+section .esas2 .img .kard .content-btn h3,
+section .esas3 .img .kard .content-btn h3 {
+  font-size: 40px;
+  color: aliceblue;
+}/*# sourceMappingURL=main.css.map */
