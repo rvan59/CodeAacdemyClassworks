@@ -1,6 +1,8 @@
+section header {
+  background-color: rgb(43, 5, 78);
+}
 section header .container {
   height: 100px;
-  background-color: rgb(43, 5, 78);
 }
 section header .container .header {
   padding: 30px;

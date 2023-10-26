@@ -1,8 +1,8 @@
 section {
-  header {
+  header {   background-color: rgb(43, 5, 78);
     .container {
       height: 100px;
-      background-color: rgb(43, 5, 78);
+
       .header {
         padding: 30px;
         @include flex(space-around);
@@ -33,7 +33,8 @@ section {
         }
       }
     }
-
+  
+  
     .center {
       h1 {
         @include flex(center);
@@ -46,7 +47,8 @@ section {
       color: aliceblue;
       font-size: 16px;
     }
-  }
+   
+}
 
   header {
     padding: 10px;
